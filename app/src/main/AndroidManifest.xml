@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amst.g1.superheores">
+    package="com.amst.g8.heroproject">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,9 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailActivity"></activity>
-        <activity android:name=".ResultsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.amst.g8.heroproject.DetailActivity"></activity>
+        <activity android:name="com.amst.g8.heroproject.ResultsActivity" />
+        <activity android:name="com.amst.g8.heroproject.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
